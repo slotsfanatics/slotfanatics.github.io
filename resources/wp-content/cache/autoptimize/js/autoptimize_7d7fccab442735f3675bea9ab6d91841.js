@@ -28,7 +28,7 @@ if(typeof JSON.stringify==='function'){query_string=JSON.stringify(data);if(href
 var d=new Date();var cache_buster=d.getTime().toString();href=href+'&z='+cache_buster;}
 document.location=href;};function createCookie(name,value,days){var expires;if(days){var date=new Date();date.setTime(date.getTime()+(days*24*60*60*1000));expires="; expires="+date.toGMTString();}
 else{expires="";}
-document.cookie=name+"="+value+expires+"; domain=.onlinepokies4u.com; path=/";};function getCookie(c_name){if(document.cookie.length>0){c_start=document.cookie.indexOf(c_name+"=");if(c_start!=-1){c_start=c_start+c_name.length+1;c_end=document.cookie.indexOf(";",c_start);if(c_end==-1){c_end=document.cookie.length;}
+document.cookie=name+"="+value+expires+"; domain=.slotsfanatics.com; path=/";};function getCookie(c_name){if(document.cookie.length>0){c_start=document.cookie.indexOf(c_name+"=");if(c_start!=-1){c_start=c_start+c_name.length+1;c_end=document.cookie.indexOf(";",c_start);if(c_end==-1){c_end=document.cookie.length;}
 return unescape(document.cookie.substring(c_start,c_end));}}
 return"";};SessionTracker.prototype.setUserId=function(){this.tracker.set('userId',this.id());this.tracker.set('dimension2',this.id());};providePlugin('sessionTracker',SessionTracker);
 /*!
