@@ -2961,7 +2961,7 @@ a.prev3{left:-59px}.arrow_section
 a.next3{right:-59px}#relatedProductsScroll
 section{height:auto !important}#slider4{width:100%}.slider{width:140px;position:relative;float:left}.more-pokies
 img{display:block;margin:0
-auto 20px}.clear{clear:both;overflow:hidden}.header-top{background:rgba(0, 0, 0, 0) url(../../../uploads/2016/02/header-top.jpg) no-repeat scroll 0 0;height:65px}.header-top-left{background:rgba(0, 0, 0, 0) url(//slotsfanatics.com/resources/wp-content/uploads/2016/02/green-rep.png) repeat scroll 0 0;float:left;height:65px;padding:15px
+auto 20px}.clear{clear:both;overflow:hidden}.header-top{display:none;background:rgba(0, 0, 0, 0) url(../../../uploads/2016/02/header-top.jpg) no-repeat scroll 0 0;height:65px}.header-top-left{background:rgba(0, 0, 0, 0) url(//slotsfanatics.com/resources/wp-content/uploads/2016/02/green-rep.png) repeat scroll 0 0;float:left;height:65px;padding:15px
 10px;width:295px}.header-top-left
 img{float:left;margin:4px
 10px 0 0}span.brdr{background:#fff none repeat scroll 0 0;display:block;float:left;height:100%;margin:0
@@ -2992,7 +2992,7 @@ none !important}#theme-page .theme-page-wrapper{margin:20px
 auto !important;padding-right:0px}.header-top-left{display:block}.header-top-left a:hover
 img.fill1{display:block}.header-top-left a.second:hover
 img.fill2{display:block}.header-top-left a.second:hover .header-top-left a
-img.fill1{display:block}.jq-ry-container{float:left}.header-top{background:#b2070b;height:94px}.header-top-left{width:275px;float:left;height:94px;padding:20px
+img.fill1{display:block}.jq-ry-container{float:left}.header-top{display:none;background:#b2070b;height:94px}.header-top-left{width:275px;float:left;height:94px;padding:20px
 5px 7px 10px;background:#f9b033;background:-moz-linear-gradient(top,  #f9b033 0%, #ff1315 100%);background:-webkit-linear-gradient(top,  #f9b033 0%,#ff1315 100%);background:linear-gradient(to bottom,  #f9b033 0%,#ff1315 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b033', endColorstr='#ff1315',GradientType=0 )}.header-top-left
 img{float:left;margin:4px
 10px 0 0}span.brdr{width:1px;height:100%;background:#fff;display:block;float:left;margin:0
