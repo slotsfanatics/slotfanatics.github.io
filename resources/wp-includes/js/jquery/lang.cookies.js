@@ -52,6 +52,11 @@ $(document).ready(function() {
         location.reload();
     });
 	
+	$(document).on('click','#flag-nl', function() {
+        setCookie('googtrans', '/en/nl', 0, '.slotsfanatics.com');
+        location.reload();
+    });
+	
 	$(document).on('click','#flag-de', function() {
         setCookie('googtrans', '/en/de', 0, '.slotsfanatics.com');
         location.reload();
