@@ -99,78 +99,9 @@ data-sticky-offset='header' id="mk-header-1" class="mk-header header-style-1 hea
 
 <script type='text/javascript' src='http://slotsfanatics.com/resources/wp-includes/js/jquery/jquery-3.1.1.min.js'></script>
 <script type='text/javascript' src='http://slotsfanatics.com/resources/wp-includes/js/jquery/js.cookie.js'></script>
-
-<script>
-function setCookie(cname, cvalue, exdays) {
-
-	Cookies.remove(cname);
-	Cookies.remove(cname, { path: '/', domain: 'slotsfanatics.com' });
-	Cookies.remove(cname, { path: '/', domain: 'www.slotsfanatics.com' });
-	
-    var expires;
-    if (exdays === 0) {
-        expires = '';
-    } else {
-        var d = new Date();
-        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-        expires = "expires=" + d.toGMTString();
-    }
-    var domain2 = (typeof domain2 === "undefined") ? '' : "; domain="+domain2;
-    document.cookie = cname + "=" + cvalue + "; " + expires + "path=/" + domain2;
-}
+<script type='text/javascript' src='http://slotsfanatics.com/resources/wp-includes/js/jquery/lang.cookies.js'></script>
 
 
-function getCookie(cname) {
-    var name = cname + "=";
-    var ca = document.cookie.split(';');
-    for (var i = 0; i < ca.length; i++) {
-        var c = ca[i].trim();
-        if (c.indexOf(name) == 0) {
-            return c.substring(name.length, c.length);
-        }
-    }
-    return "";
-}
-
-
-//Using jQuery
-$(document).ready(function() {
-    $(document).on('click','#flag-en', function() {
-        setCookie('googtrans', '/en/en', 0, '.slotsfanatics.com');
-        location.reload();
-    });
-	
-	$(document).on('click','#flag-sv', function() {
-        setCookie('googtrans', '/en/sv', 0, '.slotsfanatics.com');
-        location.reload();
-    });
-	
-	$(document).on('click','#flag-fi', function() {
-        setCookie('googtrans', '/en/fi', 0, '.slotsfanatics.com');
-        location.reload();
-    });
-	
-	$(document).on('click','#flag-nn', function() {
-        setCookie('googtrans', '/en/nn', 0, '.slotsfanatics.com');
-        location.reload();
-    });
-	
-	$(document).on('click','#flag-de', function() {
-        setCookie('googtrans', '/en/de', 0, '.slotsfanatics.com');
-        location.reload();
-    });
-
-    
-
-    var googTrans = getCookie('googtrans');
-
-    if (googTrans === '/es/en') {
-        var src = $('#lang-change-en > img').attr('src').replace('en-flag', 'es-flag');
-        $('#lang-change-en > img').attr('src', src);
-        $('#lang-change-en').attr('id', 'lang-change-es');
-    }
-});
-</script>
 
 
 <footer id="mk_page_footer"> <script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
