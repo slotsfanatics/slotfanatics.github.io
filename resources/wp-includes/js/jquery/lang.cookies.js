@@ -47,8 +47,8 @@ $(document).ready(function() {
         location.reload();
     });
 	
-	$(document).on('click','#flag-nn', function() {
-        setCookie('googtrans', '/en/nn', 0, '.slotsfanatics.com');
+	$(document).on('click','#flag-no', function() {
+        setCookie('googtrans', '/en/no', 0, '.slotsfanatics.com');
         location.reload();
     });
 	
