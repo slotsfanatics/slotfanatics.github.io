@@ -101,6 +101,9 @@ data-sticky-offset='header' id="mk-header-1" class="mk-header header-style-1 hea
 
 <script>
 function setCookie(cname, cvalue, exdays) {
+
+	$.removeCookie(cname);
+
     var expires;
     if (exdays === 0) {
         expires = '';
