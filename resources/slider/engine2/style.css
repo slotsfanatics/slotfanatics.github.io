@@ -424,36 +424,7 @@ _:-ms-input-placeholder, :root #wowslider-de a.ws_prev > span:before {line-heigh
 @-moz-keyframes wsBasic{0%{left:-0%} 35.71%{left:-0%} 50%{left:-100%} 85.71%{left:-100%} }
 @-webkit-keyframes wsBasic{0%{left:-0%} 35.71%{left:-0%} 50%{left:-100%} 85.71%{left:-100%} }
 
-#wowslider-de .ws_bullets  a img{
-	position:absolute;
-	display:block;
-	text-indent:0;
-	bottom:15px;
-	left:-83px;
-	visibility:hidden;
-	max-width:none;
-}
-#wowslider-de .ws_bullets a:hover img{
-	visibility:visible;
-}
-
 #wowslider-de .ws_bulframe div div{
-	height:48px;
-	overflow:visible;
-	position:relative;
-}
-#wowslider-de .ws_bulframe div {
-	left:0;
-	overflow:hidden;
-	position:relative;
-	width:166px;
-}
-#wowslider-de  .ws_bullets .ws_bulframe{
-	position:absolute;
-	display:none;
-	bottom:30px;
-	margin-left:10px;
-	cursor:pointer;#wowslider-de .ws_bulframe div div{
 	height: auto;
 }
 
