@@ -413,24 +413,24 @@ _:-ms-input-placeholder, :root #wowslider-container1 a.ws_prev > span:before {li
 	left: 0;
 	margin-right:10em;
 	z-index: 50;
+	background: none;
+	background-color: #cc6055;
+	color: #fff;
+	padding: 1.6em;
 	bottom: 0;
 	top: auto;
 	opacity: 1;
-}
-#wowslider-container1 .ws-title div,#wowslider-container1 .ws-title span{
-	display:inline-block;
-	padding: 0.6em 0.8em;
-	background-color: #cc6055;
-	color: #fff;
+	border-radius: 0.2em;
 }
 #wowslider-container1 .ws-title div{
 	display:block;
-	margin-top:0.5em;
+	margin-top:0.1em;
 	font-size: 1.3em;
-	color: #fff;
+	line-height: 1.15em;
 }
 #wowslider-container1 .ws-title span{
 	font-size: 2em;
+	line-height: 1.35em;
 }#wowslider-container1 .ws_images > ul{
 	animation: wsBasic 20.7s infinite;
 	-moz-animation: wsBasic 20.7s infinite;
