@@ -18,4 +18,4 @@ function ws_seven(m,A,o){var p=jQuery;var w=p(this);var n=m.distance||5;var d=m.
 // Obfuscated by Javascript Obfuscator
 // http://javascript-source.com
 //***********************************************
-jQuery("#wowslider-de").wowSlider({effect:"seven",prev:"",next:"",duration:20*100,delay:50*100,width:1100,height:317,autoPlay:true,autoPlayVideo:false,playPause:false,stopOnHover:false,loop:false,bullets:0,caption:false,captionEffect:"parallax",controls:false,controlsThumb:["data2/images/denetbet.png", "data2/images/gratorama.png"],responsive:1,fullScreen:false,gestures:2,onBeforeStep:0,images:0});
+jQuery("#wowslider-de").wowSlider({effect:"seven",prev:"",next:"",duration:20*100,delay:50*100,width:1100,height:317,autoPlay:true,autoPlayVideo:false,playPause:true,stopOnHover:false,loop:false,bullets:1,caption:false,captionEffect:"parallax",controls:false,controlsThumb:["data2/images/denetbet.png", "data2/images/gratorama.png"],responsive:1,fullScreen:false,gestures:2,onBeforeStep:0,images:0});
