@@ -492,3 +492,6 @@ _:-ms-input-placeholder, :root #wowslider-de a.ws_prev > span:before {line-heigh
 		display: none
 	}
 }
+
+.ws_images img {margin:0;}
+.ws_images {border-radius:10px;}
