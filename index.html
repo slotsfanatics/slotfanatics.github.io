@@ -118,6 +118,16 @@ data-sticky-offset='header' id="mk-header-1" class="mk-header header-style-1 hea
 <div class="ws_shadow"></div>
 </div>	
 
+<div id="wowslider-de" class="wowslider-container" style="margin-bottom:50px;display:none;">
+<div class="ws_images"><ul>
+		<li><img src="resources/slider/data1/images/de-netbet.png" alt="Netbet" title="Netbet" id="wows1_0"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Netbet"><span><img src="resources/slider/data1/tooltips/de.png" alt="DE"/>1</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+
 
 <!-- End WOWSlider.com BODY section -->
 
@@ -470,10 +480,12 @@ var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result 
 
 var language = Cookies.get('googtrans');
 if (language === undefined){
-	$('#uk-casinos').css('display','block');
+	$('#en-casinos').css('display','block');
+	$('#wowslider-en').css('display','block');
 }
 else{
 	$('#' + language.substr(4) + '-casinos').css( 'display', 'block' ); 
+	$('#' + 'wowslider-'+ language.substr(4)).css( 'display', 'block' ); 
 }
 </script>
 
