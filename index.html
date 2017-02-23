@@ -467,9 +467,7 @@ var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result 
   document.body.style.visibility="visible";
 }, 1000);
 
- setTimeout(function() {
- $('#wowslider-container1').css('display','block');
-}, 1000);
+
     
 	
 
@@ -481,11 +479,15 @@ var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result 
 var language = Cookies.get('googtrans');
 if (language === undefined){
 	$('#en-casinos').css('display','block');
+	setTimeout(function() {
 	$('#wowslider-en').css('display','block');
+	}, 1000);
 }
 else{
 	$('#' + language.substr(4) + '-casinos').css( 'display', 'block' ); 
+	 setTimeout(function() {
 	$('#' + 'wowslider-'+ language.substr(4)).css( 'display', 'block' ); 
+	}, 1000);
 }
 </script>
 
