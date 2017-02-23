@@ -110,6 +110,7 @@
 	float: left;
 	position:absolute;
 	z-index:70;
+	line-height: 1em !important;
 }
 #wowslider-de  .ws_bullets div{
 	position:relative;
