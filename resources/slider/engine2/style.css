@@ -413,32 +413,32 @@ _:-ms-input-placeholder, :root #wowslider-de a.ws_prev > span:before {line-heigh
 	left: 0;
 	margin-right:10em;
 	z-index: 50;
-	background: none;
-	background-color: #cc6055;
-	color: #fff;
-	padding: 1.6em;
 	bottom: 0;
 	top: auto;
 	opacity: 1;
-	border-radius: 0.2em;
+}
+#wowslider-de .ws-title div,#wowslider-de .ws-title span{
+	display:inline-block;
+	padding: 0.6em 0.8em;
+	background-color: #cc6055;
+	color: #fff;
 }
 #wowslider-de .ws-title div{
 	display:block;
-	margin-top:0.1em;
+	margin-top:0.5em;
 	font-size: 1.3em;
-	line-height: 1.15em;
+	color: #fff;
 }
 #wowslider-de .ws-title span{
 	font-size: 2em;
-	line-height: 1.35em;
 }#wowslider-de .ws_images > ul{
-	animation: wsBasic 6.9s infinite;
-	-moz-animation: wsBasic 6.9s infinite;
-	-webkit-animation: wsBasic 6.9s infinite;
+	animation: wsBasic 14s infinite;
+	-moz-animation: wsBasic 14s infinite;
+	-webkit-animation: wsBasic 14s infinite;
 }
-@keyframes wsBasic{0%{left:-0%} 71.01%{left:-0%} }
-@-moz-keyframes wsBasic{0%{left:-0%} 71.01%{left:-0%} }
-@-webkit-keyframes wsBasic{0%{left:-0%} 71.01%{left:-0%} }
+@keyframes wsBasic{0%{left:-0%} 35.71%{left:-0%} 50%{left:-100%} 85.71%{left:-100%} }
+@-moz-keyframes wsBasic{0%{left:-0%} 35.71%{left:-0%} 50%{left:-100%} 85.71%{left:-100%} }
+@-webkit-keyframes wsBasic{0%{left:-0%} 35.71%{left:-0%} 50%{left:-100%} 85.71%{left:-100%} }
 
 #wowslider-de .ws_bullets  a img{
 	position:absolute;
