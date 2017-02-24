@@ -133,7 +133,20 @@ var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result 
   document.body.style.visibility="visible";
 }, 1000);
 
-</script></body>
+</script><!-- SWITCH DEALS BASED BY LANGUAGE -->
+<script>
+
+var language = Cookies.get('googtrans');
+if (language === undefined){
+	$('#en-casinos').css('display','block');
+	$('#en-top1').css('display','block');
+}
+else{
+	$('#' + language.substr(4) + '-casinos').css( 'display', 'block' ); 
+	$('#' + language.substr(4) + '-top1').css( 'display', 'block' ); 
+}
+</script>
+</body>
 <!-- Generated slotsfanatics.com/free-online-slots/ipad/page/5/  , Fri, 27 Jan 2017 00:13:32 GMT -->
 </html>
 <!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/

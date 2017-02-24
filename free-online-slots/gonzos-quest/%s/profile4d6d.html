@@ -3,5 +3,18 @@
 <body bgcolor="white">
 <center><h1>400 Bad Request</h1></center>
 <hr><center>nginx</center>
+<!-- SWITCH DEALS BASED BY LANGUAGE -->
+<script>
+
+var language = Cookies.get('googtrans');
+if (language === undefined){
+	$('#en-casinos').css('display','block');
+	$('#en-top1').css('display','block');
+}
+else{
+	$('#' + language.substr(4) + '-casinos').css( 'display', 'block' ); 
+	$('#' + language.substr(4) + '-top1').css( 'display', 'block' ); 
+}
+</script>
 </body>
 </html>
