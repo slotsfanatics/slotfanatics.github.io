@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+
+	#obiron {
+		display:none;
+	}
+	
+	.slicknav_menu {
+		display:block;
+	}
+
+	.slicknav_menu a:link, 	.slicknav_menu a:visited{
+		color: #eee;
+	}
+	#masthead .head .site-branding h1.site-title{
+		text-align: center;
+	}
+
+	.searchform .search-form{
+		margin:10px auto 10px;
+		float: none;
+	}
+	#masthead .top-bar{
+		height: auto;
+		text-align: center;
+	}
+	#masthead .top-bar ul.social{
+		text-align: center;
+	}
+}

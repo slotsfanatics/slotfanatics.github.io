@@ -1,0 +1,198 @@
+/* Home boxes */
+
+.box {
+background:#f5ede6;
+color:#555;
+width:198px;
+margin:30px 18px 20px 15px !important;
+float:left;
+position:relative;
+border:1px solid #fff;
+-moz-box-shadow:1px 1px 2px #a38f81;
+-webkit-box-shadow:1px 1px 2px #a38f81;
+box-shadow:1px 1px 2px #a38f81;
+
+}
+
+.lastbox{
+	margin-right:0px !important;
+	clear:right!important;
+}
+
+.boxim{
+position:relative;
+padding:9px 9px 0px 9px;
+}
+
+.btitle{
+
+padding:7px 0px;	
+border-bottom:1px solid #c8bfb8;
+}
+
+.btitle h2 a:link, .btitle h2 a:visited{
+font-size:14px;
+font-weight:bold;
+color:#302a25;
+text-shadow:-1px -1px 0px #fff;
+}
+
+a img.boximg{
+margin:0px 0px 0px 0px;
+display:block;
+}
+
+
+.scorebox{
+	padding:10px;
+	background:url(images/stripe.png);
+	border-top:1px solid #222;
+}
+
+.bmeta{
+	border-top:1px solid #fff;
+}
+
+span.sholder{
+	margin:0px 0px;
+	height:15px;
+	background:url(images/sb.png);
+	display:block;
+	overflow:hidden;
+
+}
+
+.rinfo span.sholder{
+	border:1px solid #fff;
+	overflow:hidden;
+}
+
+span.scorebar{
+	display:block;
+	height:15px;
+}
+.boxentry{
+	padding:0px 10px 10px 10px;
+	line-height:22px;
+}
+
+span.mgenre{
+	font-size:10px;
+	
+}
+
+span.mcom{
+	float:right;
+	font-size:12px;
+	background:url(images/com.png) left center no-repeat;
+	padding-left:15px;
+}
+
+.mposter{
+	float:left;
+	margin:10px 20px 20px 0px;
+	background:#ece2d9;
+	padding:10px;
+	border:1px solid #fff;
+}
+
+.theposter{
+width:180px;
+height:270px;
+background:#000;
+position:relative;
+}
+
+span.overlay{
+position:absolute;
+width:32px;
+height:32px;
+left:50%;
+top:50%;
+margin-top:-16px;
+margin-left:-16px;
+background:url(images/play.png);
+display:none;
+z-index:100;
+}
+.postermeta{
+	margin:10px 0px;
+}
+
+.postermeta span{
+	width:180px;
+	display:block;
+	padding:5px 0px;
+	border-bottom:1px solid #dacbbf;
+	font-size:11px;
+	text-shadow:-1px -1px 0px #F7F3EF;
+}
+
+.mainscore{
+	width:400px;
+	padding:10px 10px;
+	background:#fff;
+	border:1px solid #ECE2D9;
+	float:left;
+	margin:10px 0px 20px 0px;
+}
+
+.revscore{
+	width:320px;
+	float:left;
+}
+
+span.revscoretitle{
+	padding:5px 0px;
+	display:block;
+}
+
+span.single-sholder{
+	margin:0px 0px 0px 0px;
+	height:20px;
+	background:url(images/sb.png);
+	display:block;
+	border:1px solid #aaa49d;
+}
+
+
+span.single-scorebar{
+	display:block;
+	height:20px;
+}
+
+.score-1{
+	width:20%;
+	background:url(images/s1.png);
+}
+
+.score-2{
+	width:40%;
+	background:url(images/s2.png);
+}
+
+.score-3{
+	width:60%;
+	background:url(images/s3.png);
+
+}
+
+.score-4{
+	width:80%;
+	background:url(images/s4.png);
+}
+
+.score-5{
+	width:98%;
+	background:url(images/s5.png);
+}
+
+.revscorebox{
+	padding:7px 15px;
+	color:#fff;
+	background:#7C6F65;
+	float:right;
+	border:1px solid #6B5F56;
+	font-size:24px;
+	font-weight:bold;
+}
